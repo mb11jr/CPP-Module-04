@@ -1,2 +1,5 @@
 .vscode
 *.o
+animal
+animal_brain
+animal_abstract

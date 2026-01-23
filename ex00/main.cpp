@@ -25,7 +25,7 @@ int main()
 	std::cout << "\n--- WRONG WAY (No Virtual) ---" << std::endl;
 	const WrongAnimal *wrong = new WrongCat();
 	std::cout << wrong->getType() << " " << std::endl;
-	wrong->makeSound(); // >> Generic wrongAnimal msg | pointer is WrongAnimal
+	wrong->makeSound();
 
 	delete wrong;
 	return 0;
